@@ -116,7 +116,8 @@ Catogry Columns:
 - **TRANSATION_CATEGORY** : VARCHAR(50), null, 'Sale', 'Purchase'
 - **PRODUCT_TYPE** : VARCHAR(50), null, 'Energy', 'CO2', 'NG' 
 - **FUEL_TYPE** : VARCHAR(50), null, 'PV' , 'Wind' , 'Gas' , 'Coal'
-- **ZONE_ID** : VARCHAR(50), null, 'Zone 1', 'Zone 2', 'Zone 3'
+- **ZONE_ID** : BIGINT, null, '1', '2', '3' to '11'
+- **TRANSACTION_TYPE** : VARCHAR(50), null, 'Wholesale', 'Retail'
 User Query: {query}
 
 Generate SQL:
